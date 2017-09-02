@@ -1,0 +1,26 @@
+{
+  "name": "localstorage-cookie",
+  "version": "1.0.0",
+  "description": "Make localStorage like cookie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immissile/localstorage-cookie.git"
+  },
+  "keywords": [
+    "localstorage",
+    "cookie"
+  ],
+  "author": "Missile <shaohualou@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/immissile/localstorage-cookie/issues"
+  },
+  "homepage": "https://github.com/immissile/localstorage-cookie#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
