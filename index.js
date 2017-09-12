@@ -50,9 +50,9 @@ const _originStorage = function () {
     var i = 0
     var l = cookies.length
     for (; i < l; i++) {
-      let parts = cookies[i].split('=')
-      let name = decode(parts.shift())
-      let cookie = parts.join('=')
+      var parts = cookies[i].split('=')
+      var name = decode(parts.shift())
+      var cookie = parts.join('=')
       if (key === name) {
         result = read(cookie, value)
         break
