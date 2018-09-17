@@ -1,6 +1,6 @@
 {
   "name": "localstorage-cookie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Make localStorage like cookie",
   "main": "index.js",
   "scripts": {
