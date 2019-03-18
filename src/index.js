@@ -1,4 +1,5 @@
-import {isFunction, extend} from 'lodash'
+import isFunction from 'lodash/isFunction'
+import extend from 'lodash/extend'
 
 const _originStorage = function () {
   var pluses = /\+/g
